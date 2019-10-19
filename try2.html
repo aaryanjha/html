@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="www.wikipwdia.org">
+        <div>
+                <label for="name">First Name:</label>
+                <input name="firstname" id="name" type="text" placeholder="John" required>
+                <label for="last">Last Name:</label>
+                <input name="lastname" id="last" type="text" placeholder="Smith" required>
+        </div>
+        <div>
+                <label for="male">Male</label>
+                <input name="gender" id="male" type="radio" value="male">
+                <label for="female">Female</label>
+                <input name="gender" id="female" type="radio" value="female">
+                <label for="others">Others</label>
+                <input name="gender" id="others" type="radio" value="others">
+        </div>
+        <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="your email" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="your password" required>
+        </div>
+        <div>
+                <label>
+                    Birthday:
+                    <select name="month">
+                        <option value="mon">Month</option>
+                        <option value="jan">January</option>
+                        <option value="feb">february</option>
+                        <option value="mar">March</option>
+                    </select>
+                    <select name="day">
+                        <option value="day">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select name="year">
+                        <option value="year">Year</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                    </select>
+                </label>
+        </div>
+        <div>
+            <label for="agreed">I agree to terms and conditions</label> 
+            <input type="checkbox" name="agreed" id="agreed">
+        </div>
+        <div>
+            <input type="button" value="Submit">
+        </div>
+    </form>    
+</body>
+</html>
